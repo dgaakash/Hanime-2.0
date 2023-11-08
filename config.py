@@ -38,7 +38,7 @@ FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001616278517"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>𝗛𝗲𝘆 {first}🖐️ 🥲\n\n𝗜 𝗮𝗺 𝗮𝗻 𝗮 𝗳𝗶𝗹𝗲 𝘀𝘁𝗼𝗿𝗲 𝗯𝗼𝘁 𝗯𝗮𝘀𝗶𝗰𝗮𝗹𝗹𝘆 𝗳𝗼𝗿 @Anime_X_Hunters</b>.")
+START_MSG = os.environ.get("START_MESSAGE", "<b>𝗛𝗲𝘆 {first}🖐️ 🥲\n\n𝗜'𝗺 𝗮 𝘀𝗹𝗮𝘃𝗲 𝗼𝗳 @𝗢𝘁𝗮𝗸𝘂_𝗟𝗶𝗯𝗿𝗮𝗿𝘆, 𝘀𝗮𝘃𝗲 𝗺𝗲 𝗯𝘆 𝗷𝗼𝗶𝗻𝗶𝗻𝗴 𝗰𝗵𝗮𝗻𝗻𝗲𝗹</b>.")
 try:
     ADMINS=[6376328008]
     for x in (os.environ.get("ADMINS", "5205293211").split()):
